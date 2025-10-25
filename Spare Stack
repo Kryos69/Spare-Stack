@@ -1,0 +1,113 @@
+--[[
+   _________                              _________ __                 __    
+ /   _____/__________ _______   ____    /   _____//  |______    ____ |  | __
+ \_____  \\____ \__  \\_  __ \_/ __ \   \_____  \\   __\__  \ _/ ___\|  |/ /
+ /        \  |_> > __ \|  | \/\  ___/   /        \|  |  / __ \\  \___|    < 
+/_______  /   __(____  /__|    \___  > /_______  /|__| (____  /\___  >__|_ \
+        \/|__|       \/            \/          \/           \/     \/     \/
+    
+    
+
+          join the discord: https://discord.gg/GffgHfDzpu
+          the best free script
+    
+    ]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -- // 6777
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local player  = game.Players.LocalPlayer
+local placeId = game.PlaceId
+
+if placeId == 0 then
+    print("F1")
+elseif placeId == 99588440661442 or placeId == 129992427163618 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/flag-football/refs/heads/main/Spare-Stack"))() -- // flag football
+else
+    player:Kick("Game not supported")
+end
+
+
+
+
