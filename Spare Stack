@@ -104,7 +104,7 @@ if placeId == 0 then
     print("F1")
 elseif placeId == 99588440661442 or placeId == 129992427163618 or placeId == 126486758165276 or placeId == 109505070112882 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/flag-football/refs/heads/main/flag%20football"))() -- // flag football
-elseif placeId == 14259168147 or placeId == 14386691987 or placeId == 17652853807 or placeId == 17652855195 or placeID == 71832465156084 then
+elseif placeId == 14259168147 or placeId == 14386691987 or placeId == 17652853807 or placeId == 17652855195 or placeId == 71832465156084 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/basketball-legeneds/refs/heads/main/basketball%20legends"))() -- // basketball legends
 else
     player:Kick("Game not supported")
