@@ -103,9 +103,9 @@ local placeId = game.PlaceId
 if placeId == 0 then
     print("F1")
 elseif placeId == 99588440661442 or placeId == 129992427163618 or placeId == 126486758165276 or placeId == 109505070112882 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/flag-football/refs/heads/main/flag%20football"))() -- // flag football
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a45b2e9966be56e59cb519452836a9c5.lua"))() -- // flag football
 elseif placeId == 14259168147 or placeId == 14386691987 or placeId == 17652853807 or placeId == 17652855195 or placeId == 71832465156084 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/basketball-legeneds/refs/heads/main/basketball%20legends"))() -- // basketball legends
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c29732dceda0150ad89ccb655e67b392.lua"))() -- // basketball legends
 else
     player:Kick("Game not supported")
 end
