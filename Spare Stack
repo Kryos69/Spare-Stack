@@ -97,6 +97,6 @@
 
 
 
-loadstring(game:HttpGet("https://cdn.yuna.cx/692b3b3aca748f6fb3bbb573/loader"))()
+loadstring(game:HttpGet("https://cdn.snc.dev/692b3b3aca748f6fb3bbb573/loader"))()
 
 
