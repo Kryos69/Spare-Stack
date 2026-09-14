@@ -1,102 +1,21 @@
---[[
-   _________                              _________ __                 __    
- /   _____/__________ _______   ____    /   _____//  |______    ____ |  | __
- \_____  \\____ \__  \\_  __ \_/ __ \   \_____  \\   __\__  \ _/ ___\|  |/ /
- /        \  |_> > __ \|  | \/\  ___/   /        \|  |  / __ \\  \___|    < 
-/_______  /   __(____  /__|    \___  > /_______  /|__| (____  /\___  >__|_ \
-        \/|__|       \/            \/          \/           \/     \/     \/
-    
-    
+local executor = identifyexecutor and identifyexecutor() or "Unknown"
 
-          join the discord: https://discord.gg/GffgHfDzpu
-          the best free script
-    
-    ]]
+if executor:lower():find("solara") or executor:lower():find("xeno") then
+    game.Players.LocalPlayer:Kick("Spare Stack doesn't support shitsploits 😭")
+    return
+end
 
+local gameId = game.GameId
 
+if gameId == 1234567890 then
+    loadstring(game:HttpGet(""))()
 
+elseif gameId == 9876543210 then
+    loadstring(game:HttpGet(""))()
 
+elseif gameId == 5555555555 then
+    loadstring(game:HttpGet(""))()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -- // 6777
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-loadstring(game:HttpGet("https://cdn.snc.dev/692b3b3aca748f6fb3bbb573/loader"))()
-
-
+else
+    game.Players.LocalPlayer:Kick("Spare Stack doesn't support this game.")
+end
