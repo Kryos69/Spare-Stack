@@ -42,7 +42,7 @@ setfenv(runProtectedRelay, setmetatable({
 
 runProtectedRelay(...)
 
-if gameId == 126987974021910 then
+if gameId == 10155360168 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/soccer/refs/heads/main/soccer"))()
 elseif gameId == 9876543210 then
     loadstring(game:HttpGet(""))()
