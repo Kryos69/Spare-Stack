@@ -44,8 +44,8 @@ runProtectedRelay(...)
 
 if gameId == 10155360168 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/soccer/refs/heads/main/soccer"))()
-elseif gameId == 9876543210 then
-    loadstring(game:HttpGet(""))()
+elseif gameId == 9908641400 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kryos69/ff3/refs/heads/main/ff3"))()
 else
     player:Kick("Spare Stack doesn't support this game.")
 end
