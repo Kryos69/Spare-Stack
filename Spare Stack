@@ -4,7 +4,6 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local executor = identifyexecutor and identifyexecutor() or "Unknown"
 local gameId = game.GameId
-player:Kick("oopsies spare stack seems to be having issues rn DUE to this i saved you yippe anyways script broken when uploaded fixing check discord for updates")
 local gameName = "Unknown"
 
 pcall(function()
